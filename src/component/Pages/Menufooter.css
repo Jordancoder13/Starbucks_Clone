@@ -1,0 +1,14 @@
+#mfoot
+{
+    height: 10vh;
+    width: 100%;
+    background-color:#1E3932;
+    position: sticky;
+    bottom: 0;
+}
+#sbag
+{
+    color: white;
+    font-size: 50px;
+    
+} 

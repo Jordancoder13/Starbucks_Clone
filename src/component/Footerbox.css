@@ -1,0 +1,32 @@
+#footh{
+    text-align: start;
+    font-size: 19px;
+    margin-bottom: 29px;
+    margin-top: 40px;
+    padding-left:55px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+#list{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 55px;
+    list-style: none;
+
+}
+#list li
+{
+    margin-bottom: 24px;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-right: 20px ;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: gray;
+}
+#fbox
+{
+    width: 250px;
+    margin-right: 10px;
+}

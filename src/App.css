@@ -1,0 +1,31 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "SoDo Sans SemiBold";
+  /* width: 100%; */
+  /* overflow-x: hidden; */}
+#para{
+  text-align:center;
+  padding: 0 20%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; 
+  font-style: normal; 
+  font-weight: 400;
+  line-height: 25px;}
+#line{
+  text-align: center;
+  padding: 7% 20%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; 
+  font-style: normal;  
+  font-weight: 400;
+  line-height: 25px;
+}
+@media only screen and (max-width: 480px)
+{
+  #para
+  {
+    padding: 0 7%;
+  }
+}

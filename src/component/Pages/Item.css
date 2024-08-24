@@ -1,0 +1,20 @@
+#bh1
+{
+    font-size: 20px;
+    margin: 10px;
+}
+#dish
+{
+    list-style: none;
+} 
+
+#itembox
+   {
+    /* border: 2px solid red; */
+    }
+    #st
+    {
+        margin: 15px 0px;
+        color: #6B6B6B;
+        padding-left: 10px;
+    }

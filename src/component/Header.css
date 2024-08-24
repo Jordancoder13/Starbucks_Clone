@@ -1,0 +1,99 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+#Header{
+    width: 100%;
+    height: 13vh;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.40);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.40);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.40); 
+display: flex;
+justify-content: space-between;
+}
+.c{ 
+    display: flex;
+    align-items: center;}
+#c1{
+    margin-left: 30px;}
+#c2{
+    margin-right: 40px;}
+.item{
+    margin: 10px;
+    font-family: "SoDo Sans SemiBold";
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;}
+.menu{
+    font-family: "SoDo Sans SemiBold";
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 21px;}
+.menu:hover{
+    color:#007047;
+    cursor: pointer;}
+#burger{
+    display: none;}
+#logo{
+    height: 7vh;
+    margin-right: 40px;
+    cursor: pointer;
+}
+#map{
+    margin-right: 80px;
+    font-size: 15px;}
+#map:hover{
+    color: #007047;
+    cursor: pointer;}
+#mapicon{
+    margin-right: 10px;
+    font-size: 20px;}
+.btn{
+border: 1px solid;
+padding: 2px 11px;
+border-radius: 45px;}
+.btn:hover{
+    cursor: pointer;}
+#join:hover{
+   background-color:#4C4C4C;}
+#my:hover{
+    background-color:#E5E5E5;}
+#join{
+    background-color: black;
+    color: white;}
+    @media only screen and (max-width: 480px)
+    {
+        .i 
+        {
+            display: none; 
+        }
+        .menu
+        {
+            display: none;
+        }
+        #c1
+        {
+            margin-left: 6px;
+        }
+        #logo
+        {
+         height: 4.5vh;
+        }
+        #Header
+        {
+            height: 8vh;
+            width: 100%;
+        }
+        #burger
+        {
+            display: block;
+            font-size: 2.5vh;
+
+        }
+        #c2
+        {
+            margin-right: 20px;
+        }
+    }
